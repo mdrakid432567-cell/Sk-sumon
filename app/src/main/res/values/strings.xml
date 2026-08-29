@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MYRA</string>
+    <string name="accessibility_service_name">MYRA Assistant Accessibility</string>
+    <string name="accessibility_description">Enables MYRA AI Voice Assistant to control apps, scroll, and perform actions via voice commands.</string>
+    <string name="overlay_service_name">MYRA Floating Orb Overlay</string>
+    <string name="call_monitor_service_name">MYRA Call Monitor</string>
+</resources>

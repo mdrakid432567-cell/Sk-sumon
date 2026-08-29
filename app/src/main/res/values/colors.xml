@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg_dark">#050505</color>
+    <color name="bg_card">#111111</color>
+    <color name="bg_card_border">#222222</color>
+    <color name="bg_card_prime">#1A0000</color>
+    <color name="bg_card_prime_border">#FF1744</color>
+    <color name="bg_input">#111111</color>
+    <color name="bg_input_border">#222222</color>
+    <color name="bg_user_chat">#1A0000</color>
+    <color name="bg_myra_chat">#111111</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_red">#FF1744</color>
+    <color name="accent_red_dark">#880E4F</color>
+    <color name="accent_red_glow">#40FF1744</color>
+    <color name="accent_red_subtle">#1A0000</color>
+    <color name="accent_purple">#D500F9</color>
+    <color name="accent_purple_dark">#880E4F</color>
+    <color name="accent_magenta">#E040FB</color>
+    <color name="accent_cyan">#40C4FF</color>
+    <color name="accent_cyan_dark">#00B0FF</color>
+    
+    <!-- States & UI Typography -->
+    <color name="text_primary">#EEEEEE</color>
+    <color name="text_secondary">#888888</color>
+    <color name="text_hint">#555555</color>
+    <color name="color_success">#00E676</color>
+    <color name="color_error">#FF1744</color>
+    <color name="color_warning">#FFD600</color>
+    
+    <!-- Translucent & Screen Overlays -->
+    <color name="red_screen_tint">#08FF1744</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

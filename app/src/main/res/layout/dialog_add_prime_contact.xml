@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_card"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD PRIME CONTACT"
+        android:textColor="@color/accent_red"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:letterSpacing="0.1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter contact name and phone number"
+        android:textColor="@color/text_secondary"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/dialogNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_input_field"
+        android:hint="Contact Name (e.g. Priya, Mom)"
+        android:textColorHint="@color/text_hint"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/dialogNumberInput"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_input_field"
+        android:hint="Phone Number (e.g. +919876543210)"
+        android:textColorHint="@color/text_hint"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:inputType="phone" />
+</LinearLayout>

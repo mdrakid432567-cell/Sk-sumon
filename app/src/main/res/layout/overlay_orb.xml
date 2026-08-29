@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayContainer"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:background="@drawable/bg_overlay_orb">
+
+    <com.myra.assistant.ui.main.OrbAnimationView
+        android:id="@+id/overlayOrbView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <!-- Close button (X) top right -->
+    <ImageButton
+        android:id="@+id/overlayCloseBtn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="6dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_close"
+        android:contentDescription="Close overlay"
+        android:scaleType="centerInside" />
+
+    <!-- MYRA label at bottom -->
+    <TextView
+        android:id="@+id/overlayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:text="MYRA"
+        android:textColor="@color/accent_red"
+        android:textSize="11sp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.2" />
+</FrameLayout>

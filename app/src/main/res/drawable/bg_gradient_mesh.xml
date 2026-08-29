@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Deep dark base -->
+    <item>
+        <color android:color="#050505" />
+    </item>
+    
+    <!-- Atmospheric subtle gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="315"
+                android:startColor="#14FF1744"
+                android:centerColor="#050505"
+                android:endColor="#10D500F9" />
+        </shape>
+    </item>
+</layer-list>
